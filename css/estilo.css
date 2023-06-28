@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: yellow;
+}
+
+div#topo {
+    background-color: gray;
+    width:100%;
+    border-bottom: 2px solid #000;
+    position: fixed;
+    box-shadow: 0 4px 5px #999;
+    color: #fff;
+    /* z-index: 1000; /* Profundidade alta, para que tudo de rolagem passe atrás dele */
+}
+
+
+header {
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+}
+
+div#logo {
+    background-color: red;
+}
+
+div#logo img {
+    width: 150px;
+    padding: 10px;
+}
+
+nav {
+    background-color: brown;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 20px;
+    margin: auto;
+}
+
+div#interface {
+    width: 940px;
+	padding: 160px 10px 0px 10px;
+	background: rgba(255,255,255, 0.75); /* rgb alpha. O 0.75 é uma transparência */
+	margin: auto;
+}
+
+section {
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+}
+
+article {
+    background-color: orange;
+    width: 70%;
+    float: left;
+}
+
+aside {
+    background-color: green;
+    width: 30%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background-color: #cecece;
+}
+
