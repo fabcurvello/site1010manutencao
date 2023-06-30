@@ -9,6 +9,7 @@
 body {
     width: 100%;
     background-color: rgba(70,130,180, 0.5);
+    background-color: rgb(70, 130, 180);/* #4682B4; /* SteelBlue */
     font-family: Verdana, Geneva, sans-serif;
 	font-size: 14pt;
 	color: #333;
@@ -32,9 +33,10 @@ h2 {
 div#topo {
     background-color: rgb(70, 130, 180);/* #4682B4; /* SteelBlue */
     width:100%;
+    min-width: 940px;
     /* border-bottom: 2px solid #000; */
     position: fixed;
-    box-shadow: 0 4px 5px #555;
+    /* box-shadow: 0 4px 5px #555; */
     z-index: 1000; /* Profundidade alta, para que tudo de rolagem passe atrás dele */
 }
 
@@ -52,8 +54,22 @@ div#logo img {
     padding: 10px;
 }
 
+div#marca-menu {
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+div#marca h1 {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1em; /* espaçamento entre linhas */
+    font-family: courier;
+    font-size: 36pt;
+    color: #191970;
+
+}
+
 nav {
-    background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
 }
 
@@ -69,8 +85,9 @@ nav ul li {
 div#interface {
     width: 940px;
 	padding: 170px 10px 0px 10px;
-	background: rgba(255,255,255, 0.75); /* rgb alpha. O 0.75 é uma transparência */
+	background: rgba(255,255,255, 0.5); /* rgb alpha. O 0.75 é uma transparência */
 	margin: auto;
+
 }
 
 section {
@@ -84,9 +101,14 @@ article {
 }
 
 aside {
-    background-color: green;
     width: 30%;
     float: right;
+}
+
+.imagem {
+    width: 95%;
+    padding: 0px 0px 10px 0px;
+    margin: auto;
 }
 
 footer {
