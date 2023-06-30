@@ -114,8 +114,16 @@ aside {
 footer {
     clear: both;
 	width: 100%;
+	height: 50px;
+	padding-top: 15px;
 	line-height: 100px; /* espaçamento entre linhas */
 	text-align: right;
 	border-top: 1px solid #333;
 }
 
+footer a {
+	color: #000;
+	text-decoration: none; /* sem sublinhado */
+	font-size: 13pt;
+	font-style: italic;
+}
