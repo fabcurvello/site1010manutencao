@@ -12,13 +12,13 @@ p {
 }
 
 h1 {
-    font-size: 14pt;
+    font-size: 20pt;
 }
 
 div {
      background-color: rgba(255,255,255, 0.5); /* rgb alpha. O 0.75 é uma transparência */
-     width: 940px;
-     padding: 10px;
+     width: 900px;
+     padding: 20px;
      margin: auto;
 }
 
@@ -39,24 +39,13 @@ header h2{
     font-size: 14pt;
 }
 
-section {
-    width: 600px;
-    float: left;
-}
-
-aside {
-    width: 300px;
-    float: right;
-    padding: 10px;
-}
-
 img {
-    width: 100%;
-    margin-top: 15px;
+    width: 500px;
+    margin-right: 15px;
 }
 
 footer {
-    clear: both;
+    height: 50px;
     text-align: center;
     border-top: 1px solid #333333;
 }
