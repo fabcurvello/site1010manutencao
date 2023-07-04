@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(70, 130, 180);/* #4682B4; /* SteelBlue */
+    font-family: Verdana;
+	font-size: 14pt;
+	color: #333333;
+}
+
+p {
+	line-height: 28px; /* espaçamento entre linhas */
+}
+
+h1 {
+    font-size: 14pt;
+}
+
+div {
+     background-color: rgba(255,255,255, 0.5); /* rgb alpha. O 0.75 é uma transparência */
+     width: 940px;
+     padding: 10px;
+     margin: auto;
+}
+
+header {
+    height: 80px;
+    text-align: center;
+    font-family: courier;
+    color: #191970;
+    line-height: 5px; /* espaçamento entre linhas */
+    border-bottom: 1px solid #333333;
+}
+
+header h1{
+    font-size: 40pt;
+}
+
+header h2{
+    font-size: 14pt;
+}
+
+section {
+    width: 600px;
+    float: left;
+}
+
+aside {
+    width: 300px;
+    float: right;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    border-top: 1px solid #333333;
+}
