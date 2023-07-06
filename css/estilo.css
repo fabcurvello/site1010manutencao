@@ -73,6 +73,7 @@ nav ul {
 nav ul li {
     padding: 20px;
     margin: auto;
+    font-size: 11pt;
     transition: background-color 0.5s;
 }
 
@@ -82,7 +83,8 @@ nav ul li:hover {
 
 nav ul li a {
     text-decoration: none;
-    color: #000000;
+    font-weight: bold;
+    color: #191970;
 }
 
 nav ul li a:hover {
@@ -127,12 +129,12 @@ footer {
 	padding-top: 15px;
 	line-height: 100px; /* espaçamento entre linhas */
 	text-align: right;
+	font-size: 12pt;
 	border-top: 1px solid #333;
 }
 
 footer a {
-	color: #000;
+	color: #191970;
 	text-decoration: none; /* sem sublinhado */
-	font-size: 13pt;
 	font-style: italic;
 }
