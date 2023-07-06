@@ -122,6 +122,22 @@ aside {
     margin: auto;
 }
 
+.interno {
+    width: 250px;
+    margin: 0px 15px 20px 0px;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+}
+
+.mapa {
+    width: 920px;
+    height: 1100px;
+}
+
+
 footer {
     clear: both;
 	width: 100%;
