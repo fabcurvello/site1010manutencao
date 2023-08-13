@@ -1,1 +1,3 @@
-apenas testando a inserção de um novo arquivo em um projeto que veio clonado do github.
+Apenas testando a inserção de um novo arquivo em um projeto que veio clonado do github.
+
+Esta linha foi inserida em outro computador, onde o projeto está clonado. Foi inserida pelo via PuyCharm.
