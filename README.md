@@ -2,6 +2,10 @@
 
 > Repositório didático: site institucional fictício criado em sala de aula para praticar HTML e CSS.
 
+## Acesse online
+
+Site publicado no GitHub Pages: **[https://fabcurvello.github.io/site1010manutencao/](https://fabcurvello.github.io/site1010manutencao/)**
+
 ## Sobre o projeto
 
 Site de uma empresa fictícia de manutenção de computadores, a **1010 Manutenção**. Foi usado em oficina prática: o professor constrói a versão de referência e os alunos recebem um modelo para completar.
